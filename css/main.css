@@ -19,6 +19,7 @@ body{
     /* position: absolute; */
     bottom: 5px;
 }
+
 .main-area{
     width: 100vw;
     position: relative;
@@ -196,8 +197,34 @@ body{
     border-radius: 360px;
     background: hsl(271, 36%, 24%);
     margin-left:20px ;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.back-btn{
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+
+  }
+  
+  .rightArrow {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .leftArrow {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
 .icon{
     width: 7px;
     height:2px ;
@@ -298,6 +325,8 @@ body{
     margin-left: 30px;
     border-radius: 50px;
     background-color: hsl(270, 20%, 96%);
+    
+    
     
 }
 
